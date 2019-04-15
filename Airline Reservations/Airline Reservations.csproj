@@ -76,6 +76,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\Airline_Reservations.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Airline_Reservations.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\frmPassengerLookup.datasource" />
+    <None Include="Properties\DataSources\frmReservations.datasource" />
+    <None Include="Properties\DataSources\Passenger.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
