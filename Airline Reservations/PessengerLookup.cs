@@ -25,7 +25,7 @@ namespace Airline_Reservations
         public frmPassengerLookup(string viewMode)
         {
             InitializeComponent();
-            foundPassengers = frmReservations.passengers;
+            foundPassengers = viewMode == "delete" ? frmReservations.foundPassengers : frmReservations.passengers;
             passenger = new Passenger();
             isOperationCancelled = false;
             this.viewMode = viewMode;

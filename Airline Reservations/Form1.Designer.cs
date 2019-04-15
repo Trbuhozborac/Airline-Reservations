@@ -87,9 +87,9 @@
             // lstOutput
             // 
             this.lstOutput.FormattingEnabled = true;
-            this.lstOutput.Location = new System.Drawing.Point(232, 35);
+            this.lstOutput.Location = new System.Drawing.Point(231, 35);
             this.lstOutput.Name = "lstOutput";
-            this.lstOutput.Size = new System.Drawing.Size(166, 264);
+            this.lstOutput.Size = new System.Drawing.Size(167, 264);
             this.lstOutput.TabIndex = 4;
             this.lstOutput.SelectedIndexChanged += new System.EventHandler(this.lstOutput_SelectedIndexChanged);
             // 
@@ -101,6 +101,7 @@
             this.btnAddPassenger.TabIndex = 5;
             this.btnAddPassenger.Text = "Add Passenger";
             this.btnAddPassenger.UseVisualStyleBackColor = true;
+            this.btnAddPassenger.Click += new System.EventHandler(this.btnAddPassenger_Click);
             // 
             // btnDeletePessenger
             // 
@@ -110,6 +111,7 @@
             this.btnDeletePessenger.TabIndex = 5;
             this.btnDeletePessenger.Text = "Delete Passenger";
             this.btnDeletePessenger.UseVisualStyleBackColor = true;
+            this.btnDeletePessenger.Click += new System.EventHandler(this.btnDeletePessenger_Click);
             // 
             // btnShowPassengers
             // 
@@ -119,6 +121,7 @@
             this.btnShowPassengers.TabIndex = 5;
             this.btnShowPassengers.Text = "Show Passengers";
             this.btnShowPassengers.UseVisualStyleBackColor = true;
+            this.btnShowPassengers.Click += new System.EventHandler(this.btnShowPassengers_Click);
             // 
             // btnQuit
             // 
@@ -128,6 +131,7 @@
             this.btnQuit.TabIndex = 5;
             this.btnQuit.Text = "Quit";
             this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // label3
             // 
